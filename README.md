@@ -1,14 +1,14 @@
-## Pi challenge
+# PI Challenge
 
 Este proyecto hace referencia a un challenge realizado para Pi. 
 
-# El problema
+##  El problema
 
 Un proceso ETL toma datos de un archivo y lo deposita en la tabla dbo.Unificado.
 Por algún error en estos archivos, aparecieron registros duplicados en la tabla.
 Consultando con el cliente, nos cuenta que es posible que estas cosas sucedan como consecuencia de errores en el sistema que genera estos archivos, pero que siempre tomemos el ultimo registro que fue copiado, considerando que un registro será duplicado si los campos [ID], [MUESTRA] y [RESULTADO] son iguales en dos filas distintas.
 
-# Consignas
+## Consignas
 
 a. Montar el backup de la base de datos (SQL Server - .bak)
 b. Descargar programaticamente el archivo csv con el link de abajo. Hacelo teniendo en cuenta que este archivo en el origen cambia semana a semana con datos nuevos para integrar a la base de datos.
