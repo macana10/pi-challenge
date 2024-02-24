@@ -10,9 +10,9 @@ Consultando con el cliente, nos cuenta que es posible que estas cosas sucedan co
 
 ## Consignas
 
-a. Montar el backup de la base de datos (SQL Server - .bak)
-b. Descargar programaticamente el archivo csv con el link de abajo. Hacelo teniendo en cuenta que este archivo en el origen cambia semana a semana con datos nuevos para integrar a la base de datos.
-c. Desarrollar un proceso que inserte las filas del archivo .csv en la tabla Unificado. Tener en cuenta que la columna FECHA_COPIA esta vacia en el archivo, y hay que agregarle la fecha en la cual estas insertando las nuevas filas a la base de datos.
-d. Testearlo y verificar que no haya perdida de información. Documentar.
-e. Dejar de algún modo programado ese proceso para que se ejecute los lunes de cada semana, a las 5:00 AM.
-f. Mejorar el proceso para que guarde logs en cada ejecución con la información que creas necesaria (cantidad de filas afectadas, fecha del proceso, instancia de base de datos, etc).
+-  Montar el backup de la base de datos (SQL Server - .bak)
+-  Descargar programaticamente el archivo csv con el link de abajo. Hacelo teniendo en cuenta que este archivo en el origen cambia semana a semana con datos nuevos para integrar a la base de datos.
+-  Desarrollar un proceso que inserte las filas del archivo .csv en la tabla Unificado. Tener en cuenta que la columna FECHA_COPIA esta vacia en el archivo, y hay que agregarle la fecha en la cual estas insertando las nuevas filas a la base de datos.
+-  Testearlo y verificar que no haya perdida de información. Documentar.
+-  Dejar de algún modo programado ese proceso para que se ejecute los lunes de cada semana, a las 5:00 AM.
+-  Mejorar el proceso para que guarde logs en cada ejecución con la información que creas necesaria (cantidad de filas afectadas, fecha del proceso, instancia de base de datos, etc).
